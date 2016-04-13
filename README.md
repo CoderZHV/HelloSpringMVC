@@ -18,6 +18,11 @@ Hello SpringMVC
 		<servlet-name>springDispatcherServlet</servlet-name>
 		<url-pattern>/</url-pattern>
 	</servlet-mapping>
+	
+	{
+	实际上也可以不通过 contextConfigLocation 来配置 SpringMVC 的配置文件, 而使用默认的.
+			默认的配置文件为: /WEB-INF/<servlet-name>-servlet.xml
+	}
 
 2.创建springmvc.xml文件，并配置自动扫描的包
 	<context:component-scan base-package="com.springmvc.hello"></context:component-scan>
