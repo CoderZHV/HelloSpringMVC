@@ -3,6 +3,7 @@
 Hello SpringMVC
 
 1.在web.xml文件配置DispatcherServlet
+	
 	<servlet>
 		<servlet-name>springDispatcherServlet</servlet-name>
 		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
@@ -25,11 +26,13 @@ Hello SpringMVC
 	}
 
 2.创建springmvc.xml文件，并配置自动扫描的包
+	
 	<context:component-scan base-package="com.springmvc.hello"></context:component-scan>
 	
 3.创建一个类，并用@controller标识，创建映射方法，用@RequestMapping标识
 
 4，在springmvc.xml中配置视图解析器
+	
 	<bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/"></property>
 		<property name="suffix" value=".jsp"></property>
