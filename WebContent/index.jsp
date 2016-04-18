@@ -10,5 +10,7 @@
 	<form action="requestmapping" method="post">
 		<input type="submit" value="submit" />
 	</form>
+	<br><br>
+	<a href="/HelloSpringMVC/testvariable/18">testPathVariable</a>
 </body>
 </html>
