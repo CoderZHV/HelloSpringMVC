@@ -7,6 +7,8 @@
 <title>Hello SpringMVC</title>
 </head>
 <body>
-	<a href="helloworld">Hello World</a>
+	<form action="requestmapping" method="post">
+		<input type="submit" value="submit" />
+	</form>
 </body>
 </html>
