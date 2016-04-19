@@ -8,30 +8,7 @@
 </head>
 <body>
 
-	<a href="/HelloSpringMVC/testRequestParam?username=kobe">testRequestParam</a>
-	<br><br>
-	<form action="requestmapping" method="post">
-		<input type="submit" value="submit" />
-	</form>
-	<br><br>
-	<a href="/HelloSpringMVC/testvariable/18">testPathVariable</a>
+	<a href="/HelloSpringMVC/testModelAadView">TestModelAadView</a>
 	
-	
-	<br><br>
-	<a href="/HelloSpringMVC/testRestGet/1">request get</a>
-	<br><br>
-	<form action="testRestPost" method="post">
-		<input type="submit" value="POST" />
-	</form>
-	<br><br>
-	<form action="testRestDelete/1">
-		<input type="hidden" name="_method" value="DELETE" />
-		<input type="submit" value="DELETE" />
-	</form>
-	<br><br>
-	<form action="testRestPut/1" methmod="post">
-		<input type="hidden" name="_method" value="PUT" />
-		<input type="submit" value="PUT">
-	</form>
 </body>
 </html>
