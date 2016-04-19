@@ -30,3 +30,24 @@
 	index.jsp中17到32行为前端发送请求的方法
 	com.springmvc.rest.RestTest.java
 	
+5.RequestParam绑定请求参数(requestheader cookievalue)
+	
+	com.springmvc.requestparam.TestRequestParam
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

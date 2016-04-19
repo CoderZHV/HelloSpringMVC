@@ -7,6 +7,9 @@
 <title>Hello SpringMVC</title>
 </head>
 <body>
+
+	<a href="/HelloSpringMVC/testRequestParam?username=kobe">testRequestParam</a>
+	<br><br>
 	<form action="requestmapping" method="post">
 		<input type="submit" value="submit" />
 	</form>
