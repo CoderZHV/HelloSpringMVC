@@ -1,4 +1,4 @@
-# HelloSpringMVC-数据模型处理
+# HelloSpringMVC
 
 1.ModelAndView (com.springmvc.modelandview.TestModelAndView)
 
@@ -6,3 +6,5 @@
 	ModelAndView model = new ModelAndView(viewName);
 	model.addObject("data", new Date());
 	return model;
+	
+2.Map
