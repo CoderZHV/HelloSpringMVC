@@ -14,6 +14,10 @@ public class User {
 		this.email = email;
 		this.age = age;
 	}
+	
+	public User() {
+		super();
+	}
 
 	public String getUsername() {
 		return username;
