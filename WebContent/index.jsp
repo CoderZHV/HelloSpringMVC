@@ -9,6 +9,7 @@
 <body>
 
 	<a href="/HelloSpringMVC/testModelAadView">TestModelAadView</a>
-	
+	<br><br>
+	<a href="/HelloSpringMVC/testSessionAttributes">TestSessionAttributes</a>
 </body>
 </html>

@@ -10,5 +10,9 @@
 	<h4>Success !</h4>
 	<br><br>
 	time:${requestScope.data }
+	<br><br>
+	sessionUser:${sessionScope.user }
+	<br><br>
+	sessionSchool:${sessionScope.school }
 </body>
 </html>
