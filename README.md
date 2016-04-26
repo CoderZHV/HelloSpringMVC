@@ -15,3 +15,6 @@
 	*@SessionAttributes除了可以通过属性名指定需要放到会话中的属性外，还可以通过模型属性的对象类型指定哪些模型属性需要放到回话中
 	注意：该注释只能放在类的上面。而不能修饰方法
 	
+4.ModelAtrribute
+
+	*由@ModelAtrribute标记的方法，会在每个目标方法执行之前被SpringMVC调用
